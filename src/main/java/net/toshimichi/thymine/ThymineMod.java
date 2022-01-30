@@ -19,12 +19,12 @@ public class ThymineMod implements ModInitializer {
     private static ThymineOptions options;
     private static KeyBinding sprintKeyBinding;
 
-    private static final File configFile = new File("config/thymine.json");
+    private static final File configFile = new File("config/bce.json");
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     @Override
     public void onInitialize() {
-        sprintKeyBinding = new KeyBinding("thymine.options.toggleSprint", GLFW.GLFW_KEY_R, "thymine");
+        sprintKeyBinding = new KeyBinding("thymine.options.toggleSprint", GLFW.GLFW_KEY_R, "BCE");
         KeyBindingHelper.registerKeyBinding(sprintKeyBinding);
         ClientTickEvents.START_CLIENT_TICK.register(new SprintStartTick());
     }

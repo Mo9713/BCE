@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bce",
+  "version": "${version}",
+  "name": "BetterCombatExperience",
+  "description": "Improve your combat experience",
+  "authors": [
+    "MrMoBlazing"
+  ],
+  "contact": {
+    "homepage": "None"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.toshimichi.thymine.ThymineMod"
+    ]
+  },
+  "mixins": [
+    "thymine.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

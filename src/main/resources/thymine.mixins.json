@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.toshimichi.thymine.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "CameraMixin",
+    "ClientPlayerInteractionManagerAccessor",
+    "ClientPlayNetworkHandlerMixin",
+    "EntityMixin",
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "LivingEntityMixin",
+    "OptionsScreenMixin",
+    "PlayerEntityMixin",
+    "RenderSystemMixin",
+    "SliderWidgetMixin",
+    "StatusEffectInstanceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

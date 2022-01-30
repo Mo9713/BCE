@@ -1,0 +1,18 @@
+{
+  "thymine.options.title": "BCE Options",
+  "thymine.options.fullBright": "FullBright",
+  "thymine.options.fastSneak": "FastSneak",
+  "thymine.options.shiftFix": "ShiftFix",
+  "thymine.options.toggleSprint": "ToggleSprint",
+  "thymine.messages.toggleSprint.enabled": "Sprint Enabled",
+  "thymine.messages.toggleSprint.disabled": "Sprint Disabled",
+  "thymine.options.noHurtBobbing": "NoHurtBobbing",
+  "thymine.options.ignoreCooldown": "IgnoreCooldown",
+  "thymine.options.softSneak": "SoftSneak",
+  "thymine.options.forceIcon": "ForceIcon",
+  "thymine.options.antiSwim": "AntiSwim",
+  "thymine.options.potionHud": "PotionHUD",
+  "thymine.options.armorHud": "ArmorHUD",
+  "thymine.options.noStatusOverlay": "NoStatusOverlay",
+  "thymine.options.lowFire": "LowFire: %f%%"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "bce",
+  "id": "thymine",
   "version": "${version}",
   "name": "BetterCombatExperience",
   "description": "Improve your combat experience",
